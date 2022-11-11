@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Shop</title>
+
+  <!-- CSS link--->
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!-- fonts awesome link--->
+  <script src="https://kit.fontawesome.com/bc1bcbad31.js" crossorigin="anonymous"></script>
+
+  <!-- Google fonts link --->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,600&family=Roboto+Serif:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,600&family=Roboto+Serif:wght@100&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:ital,wght@0,100;1,600&family=Roboto+Serif:wght@100&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Section ID --->
+  <section id="title">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/Logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+      </a>
+
+      <div class="input-group md-form form-sm form-2 pl-0">
+        <input class="form-control my-0 py-1 lime-border" type="text" placeholder="Search" aria-label="Search">
+        <div class="input-group-append">
+          <span class="input-group-text lime lighten-2" id="basic-text1"><i class="fas fa-search text-grey" aria-hidden="false"></i></span>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Nav1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Nav1">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tutorial.html">Tutorial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="account.html"><i class="fas fa-user-circle"></i></a>
+          </li>
+
+      </div>
+    </nav>
+
+    <!-- featured -->
+    <section id="Featured">
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="3000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="Featured-photo" src="images/pic1.jpg" alt="Featured-photo">
+          </div>
+          <div class="carousel-item">
+            <img class="Featured-photo" src="images/pic2.jpg" alt="Featured-photo">
+          </div>
+          <div class="carousel-item">
+            <img class="Featured-photo" src="images/pic3.jpg" alt="Featured-photo">
+          </div>
+          <div class="carousel-item">
+            <img class="Featured-photo" src="images/pic4.jpg" alt="Featured-photo">
+          </div>
+          <div class="carousel-item">
+            <img class="Featured-photo" src="images/pic5.jpg" alt="Featured-photo">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+<section id="Category">
+  <h3>Category</h3>
+  <div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <a href="tools.html " role="button" class="btn btn-success "><i class="fas fa-tools"></i> Tools</a>
+    </div>
+    <div class="col">
+      <a href="seed.html " role="button" class="btn btn-success "><i class="fas fa-seedling"></i> Seed</a>
+    </div>
+    <div class="col">
+      <a href="equipment.html " role="button" class="btn btn-success "><i class="fas fa-tractor"></i> Equipment</a>
+    </div>
+    <div class="col">
+      <a href="clothes.html " role="button" class="btn btn-success "><i class="fas fa-tshirt"></i> Clothes</a>
+    </div>
+
+  </div>
+</div>
+</section>
+
+
+
+
+          <section id="top-pick">
+
+        <div class="container container-shop">
+
+
+
+
+            <h3>Top Picks</h3>
+            <br>
+
+            <div class="row align-items-end">
+              <div class="col-lg-2 col-2">
+                <img src="images/Shovel.png" alt="product" class="product">
+                <p class="p-product">Shovel</p>
+                <p class="p-product">Php 100</p>
+                <p class="p-product">4.5 &#x2B50; &#x2B50; &#x2B50; &#x2B50; </p>
+              </div>
+
+              <div class="col-lg-2 col-2">
+                <img src="images/clothes.jpeg" alt="product" class="product">
+                <p class="p-product">Farming Suit</p>
+                <p class="p-product">Php 699</p>
+                <p class="p-product">4.3 &#x2B50; &#x2B50; &#x2B50; &#x2B50; </p>
+              </div>
+
+              <div class="col-lg-2 col-2">
+                <img src="images/pumpkin.jpg" alt="product" class="product">
+                <p class="p-product">Pumpkin Seeds</p>
+                <p class="p-product">Php 59</p>
+                <p class="p-product">4.3 &#x2B50; &#x2B50; &#x2B50; &#x2B50; </p>
+              </div>
+              <div class="col-lg-2 col-2">
+                <img src="images/pruning.png" alt="product" class="product">
+                <p class="p-product">Pruning</p>
+                <p class="p-product">Php 350</p>
+                <p class="p-product">4.0 &#x2B50; &#x2B50; &#x2B50; &#x2B50; </p>
+              </div>
+              <div class="col-lg-2 col-2">
+                <img src="images/sprinkler.jpg" alt="product" class="product">
+                <p class="p-product">Sprinkler</p>
+                <p class="p-product">Php 249</p>
+                <p class="p-product">4.7 &#x2B50; &#x2B50; &#x2B50; &#x2B50; </p>
+              </div>
+              <div class="col-lg-2 col-2">
+                <img src="images/gloves.jpg" alt="product" class="product">
+                <p class="p-product">Gloves</p>
+                <p class="p-product">Php 85</p>
+                <p class="p-product">4.9 &#x2B50; &#x2B50; &#x2B50; &#x2B50; &#x2B50; </p>
+              </div>
+
+<h3>Recommended for You</h3>
+<br>
+<br>
+
+
+                <div class="col-lg-2 col-2">
+                  <img src="images/wheebarrow.jpg" alt="product" class="product">
+                  <p class="p-product">Wheel Barrow</p>
+                  <p class="p-product">Php 2899</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>
+                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/strawberryseeds.jpg" alt="product" class="product">
+                  <p class="p-product">Strawberry Seeds</p>
+                  <p class="p-product">Php 59</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>
+                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/lawnmower.jpg" alt="product" class="product">
+                  <p class="p-product">Lawn Mower</p>
+                  <p class="p-product">Php 1549</p>
+                  <button type="button" class="btn btn-success btn-sm">Learn More</button>
+                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/rake.jpg" alt="product" class="product">
+                  <p class="p-product">Rake</p>
+                  <p class="p-product">Php 200</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>
+                </div>
+                <div class="col-2">
+                  <img src="images/eggplantseeds.jpg" alt="product" class="product">
+                  <p class="p-product">Eggplant Seeds</p>
+                  <p class="p-product">Php 35</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>
+                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/power weeder.jpg" alt="product" class="product">
+                  <p class="p-product">Power Weeder</p>
+                  <p class="p-product">Php 3899</p>
+                  <button type="button" class="btn btn-success btn-sm">Learn More</button>
+                </div>
+
+
+                <div class="col-lg-2 col-2">
+                  <img src="images/digingshovel.jpg" alt="product" class="product">
+                  <p class="p-product">Diging Shovel</p>
+                  <p class="p-product">Php 250</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>
+                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/croodle.jpg" alt="product" class="product">
+                  <p class="p-product">Croddle Steel Hoe</p>
+                  <p class="p-product">Php 300</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>
+                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/carrots.jpg" alt="product" class="product">
+                  <p class="p-product">Carrots Seeds</p>
+                  <p class="p-product">Php 42</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>
+                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/peach.jpg" alt="product" class="product">
+                  <p class="p-product">Peach Seeds</p>
+                  <p class="p-product">Php 42</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>
+                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/PaddyWheatThresher.jpg" alt="product" class="product">
+                  <p class="p-product">Paddy Thresher</p>
+                  <p class="p-product">Php 20,000</p>
+                  <button type="button" class="btn btn-success btn-sm">Learn More</button>
+                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/tractor.jpg" alt="product" class="product">
+                  <p class="p-product">Tractor</p>
+                  <p class="p-product">Php 125,000</p>
+                  <button type="button" class="btn btn-success btn-sm">Learn More</button>
+                </div>
+
+                <div class="col-lg-2 col-2">
+                  <img src="images/sickle.jpg" alt="product" class="product">
+                  <p class="p-product">Sickle</p>
+                  <p class="p-product">Php 150</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/pickmattock.jpg" alt="product" class="product">
+                  <p class="p-product">Pick Mattock</p>
+                  <p class="p-product">Php 300</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/cottonstripper.jpg" alt="product" class="product">
+                  <p class="p-product">Cotton Stripper</p>
+                  <p class="p-product">Php 20,000</p>
+                  <button type="button" class="btn btn-success btn-sm">Learn More</button>                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/watermelon.jpg" alt="product" class="product">
+                  <p class="p-product">Watermelon Seeds</p>
+                  <p class="p-product">Php 39</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/apple.jpg" alt="product" class="product">
+                  <p class="p-product">Apple Seeds</p>
+                  <p class="p-product">Php 34</p>
+                  <button type="button" class="btn btn-success btn-sm">Order</button>                </div>
+                <div class="col-lg-2 col-2">
+                  <img src="images/Ripper.jpg" alt="product" class="product">
+                  <p class="p-product">Ripper</p>
+                  <p class="p-product">Php 9899</p>
+                  <button type="button" class="btn btn-success btn-sm">Learn More</button>                </div>
+
+  </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CALL TO ACTION -->
+     <section class="cta">
+      <!-- Footer -->
+      <footer class="text-center text-white" style="background-color: #0a4275;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: CTA -->
+          <section class="">
+            <p class="d-flex justify-content-center align-items-center">
+              <span class="me-3">Register for free</span>
+              <a href="signIn.html" role="button" class="btn btn-outline-light btn-rounded">
+                Sign up!
+              </a>
+            </p>
+          </section>
+          <!-- Section: CTA -->
+        </div>
+        <!-- Grid container -->
+
+      </footer>
+      <!-- Footer -->
+    </section>
+
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-white text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3 text-secondary"></i>Company name
+                </h6>
+                <p>
+                The number 1 farming e-commerce nationwide. We serve as best as we can
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Products
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Tools</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Equipments</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">clothes</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Seeds</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                www.dig-e-commerce.com
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i> 5th Street, Sariaya, Quezon Philippines</p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i>
+                  digcompany@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i> +63923 2314 123</p>
+                <p><i class="fas fa-print me-3 text-secondary"></i> +63917 7655 324</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+          © 2022 Copyright:
+          <a class="text-reset fw-bold" href="index.html">www.dig-e-commerce.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+
+
+
+
+</body>
+
+</html>
